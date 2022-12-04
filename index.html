@@ -6,81 +6,93 @@
         <title>Document</title>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+
         <link rel="stylesheet" href="./css/styles.css">
+
+
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="/" class="logo">
+        
+            <header>
+            <div class="container header">
+              <nav>
+                   <a href="/" class="logo">
                     <span>Web</span>Studio
-                </a>
+                   </a>
         
-                <ul>
-                    <li><a href="./index.html" class="list">Студія</a></li>
-                    <li><a href="./portfolio.html" class="list">Портфоліо</a></li>
-                    <li><a href="#" class="list">Контакти</a></li>
-                </ul>
+                  <ul class="menu">
+                    <li class="menu-header"><a href="./index.html" class="list">Студія</a></li>
+                    <li class="menu-header"><a href="./portfolio.html" class="list">Портфоліо</a></li>
+                    <li class="menu-header"><a href="#" class="list">Контакти</a></li>
+                  </ul>
         
-            </nav>
-            <ul>
-                <li><a href="#" class="item">info@devstudio.com</a></li>
-                <li><a href="#" class="phone">+38 096 111 11 11</a></li>
-            </ul>
-        
+              </nav>
+              <ul class="menu hero">
+                <li class="thumb"><a href="#" class="item">info@devstudio.com</a></li>
+                <li class="thumb"><a href="#" class="phone">+38 096 111 11 11</a></li>
+              </ul>
+            </div>
         </header>
        
         <main>
 
             <div>
-                <section class="promo-title">
-                    <h1  class="title">Ефективні рішення для вашого бізнесу</h1>
+                <section class="promo-title" class="section">
+                    <h1  class="title">Ефективні рішення <br> для вашого бізнесу</h1>
                     <button class="button-title" type="button">Замовити послугу</button>
                 </section>
             </div>
 
-            <section class="aside">
-                 <h2 hidden>Особливості</h2>
-                   <ul>
-                         <li>
+            <section class="aside" class="section">
+                <div class="container">
+                    <h2 class="heading" hidden>Особливості</h2>
+                       <ul class="menu">
+                         <li class="menu-item">
                              <h3 class="subject">УВАГА ДО ДЕТАЛЕЙ</h3>
                              <p class="content">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                          </li>
-                         <li>
+                         <li class="menu-item">
                              <h3 class="subject">ПУНКТУАЛЬНІСТЬ</h3>
                              <p class="content">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                          </li>
-                          <li>
+                          <li class="menu-item">
                              <h3 class="subject">ПЛАНУВАННЯ</h3>
                              <p class="content">Так само консультація з широким активом значною мірою зумовлює.</p>
                          </li>
-                         <li>
+                         <li class="menu-item">
                              <h3 class="subject">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                              <p class="content">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                          </li>
     
-            </ul>                   
-
+                        </ul>                   
+               </div>
           </section>
-          <section class="aside">
+          <section class="aside" class="section">
+            <div class="container">
             <h2 class="heading">Чим ми займаємося</h2>
-              <ul>
-                   <li> 
+              <ul class="menu">
+                   <li class="image"> 
                        <img src="./images/img1.jpg" alt="фото набору коду" width="370">
                   </li>
 
-                  <li> 
+                  <li class="image"> 
                       <img src="./images/img2.jpg" alt="фото дзвінка" width="370">
                   </li>
 
-                  <li> 
+                  <li class="image"> 
                       <img src="./images/img3.jpg" alt="фото вибору кольору" width="370">
                   </li>            
               </ul>
-
+            </div>
          </section>
-         <section class="holder">
+         <section class="holder" class="section">
+            <div class="container">
               <h2 class="heading">Наша команда</h2>
-               <ul>
+               <ul class="menu">
                  <li class="box">
                       <img src="./images/photodem.jpg" alt="фото демяненка" width="270">
                       <h3 class="name">Ігор Дем'яненко</h3>
@@ -105,21 +117,23 @@
                      <p class="text-box">UI Designer</p>
                  </li>
              </ul>
+            </div>
          </section>
                   
         </main>
         <footer>
-           <a href="/" class="footer-logo"><span>Web</span>Studio</a>
-            <address>
-             <p class="text">м. Київ, пр-т Лесі Українки, 26</p>
-                  <ul>
-                      <li><a href="amalino" class="search">info@devstudio.com</a></li>
-                     <li><a href="tel" class="search">+38 096 111 11 11</a></li>
-                 </ul>
-            </address>
-    
+             <div class="container">
+               <a href="/" class="footer-logo"><span>Web</span>Studio</a>
+               <address>
+                  <p class="text">м. Київ, пр-т Лесі Українки, 26</p>
+                      <ul>
+                           <li><a href="amalino" class="search">info@devstudio.com</a></li>
+                           <li><a href="tel" class="search">+38 096 111 11 11</a></li>
+                     </ul>
+               </address>
+             </div>
         </footer>
-
+        
     </body>
 
 </html>
