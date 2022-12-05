@@ -16,7 +16,7 @@ body {
 }
 header {
  background:var(--header-background);
-border: 1px solid #ECECEC;
+border-bottom: 1px solid #ECECEC;
 height: 80px;
 }
   
@@ -25,6 +25,8 @@ footer{
  text-decoration: none;
  font-style: normal;
  height: 251px;
+ padding-top: 60px;
+ padding-bottom: 60px;
 }
 span{
   color: var(--hover-color);
@@ -46,11 +48,7 @@ img {
 h1 ,h2, h3, p {
   margin-top: 0;
 }
-address{
-  width: 231px;
-  padding-top: 119px;
-  padding-bottom: 60px;
-}
+
 .title{
   font-family: 'Roboto',sans-serif;
   font-weight: 900;
@@ -74,11 +72,13 @@ address{
   .menu-list{
     display: flex;
     justify-content: space-between;
-    margin-top: 32px;
-    margin-right: 354px;
+    padding-top: 32px;
+    margin-right: auto;
+    justify-content: end;
   }
   .menu-kontakt{
     display: flex;
+    margin: auto;
   }
   .kontakt{
     margin-right: 40px;
@@ -90,6 +90,8 @@ address{
 .promo-title{
   background: #2F303A;
   height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .button-title{
   font-weight: 700;
@@ -102,17 +104,18 @@ address{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   
-  position: absolute;
-  width: 200px;
-  height: 58px;
-  left: 715px;
-  top: 426px;
-  padding: 0px;
-  margin: 0 0 200px;
   
+  width: 200px;
+  height: 50px;
+
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+    
 }
-.aside{
-  background: var(--body-background);
+.box-img{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .holder{
   background: #F5F4FA;
@@ -140,6 +143,7 @@ address{
  font-size: 14px;
  line-height: 1.71;
  color: #757575;
+ margin-bottom: 0px;
 }
 .heading{
  font-weight: 700;
@@ -202,7 +206,8 @@ address{
  text-align: center;
  border-radius: 4px;
  height: 38px;
-
+ padding-left: 22px;
+ padding-right: 22px;
 }
 .menu-button {
   display: flex;
@@ -223,9 +228,13 @@ address{
 .portfolio {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
+ }
+ .card-portfolio{
+  padding: 20px 24px;
  }
 .menu-portfolio{
-  margin: 0 30px 30px 0;
+  border: 1px solid #EEEEEE;
   width: 370px;
 }
 .menu-portfolio:nth-child(3n){
@@ -301,11 +310,11 @@ address{
  line-height: 1.71;
  color: #FFFFFF;
  font-style: normal;
+
  margin-bottom: 12px;
+
 }
-.text-nav{
-  margin-bottom: 12px;
-}
+
 .search{
  font-size: 14px;
  line-height: 1.71;
@@ -321,17 +330,25 @@ address{
  line-height: 1.19;
  color: #FFFFFF;
  text-decoration: none;
- 
-
+  
 }
-.footer{
-  display: flexbox;
+a.footer-logo{
+  margin-bottom: 28px;
 }
-
+.address{
+  width: 231px;
+  height: 72px;
+  margin: 0px;
+  padding: 0px;
+}
 .section{
   padding-bottom: 94px;
   padding-top: 94px;
 }
+.aside {
+  padding-top: 0px;
+}
+
 .container{
   width: 1200px;
   padding-left: 15px;
