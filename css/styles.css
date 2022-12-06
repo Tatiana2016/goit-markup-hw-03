@@ -18,6 +18,8 @@ header {
  background:var(--header-background);
 border-bottom: 1px solid #ECECEC;
 height: 80px;
+padding-top: ;
+padding-bottom: ;
 }
   
 footer{
@@ -25,6 +27,7 @@ footer{
  text-decoration: none;
  font-style: normal;
  height: 251px;
+ display: flexbox;
  padding-top: 60px;
  padding-bottom: 60px;
 }
@@ -72,13 +75,13 @@ h1 ,h2, h3, p {
   .menu-list{
     display: flex;
     justify-content: space-between;
-    padding-top: 32px;
+    
     margin-right: auto;
     justify-content: end;
   }
   .menu-kontakt{
     display: flex;
-    margin: auto;
+    margin-left: auto;
   }
   .kontakt{
     margin-right: 40px;
@@ -191,7 +194,7 @@ h1 ,h2, h3, p {
   text-align: center;
   color: #757575;
 
-  margin-bottom: 30px;
+  margin-bottom: 0px;
  }
 .button {
  font-family: 'Roboto', sans-serif;
@@ -212,10 +215,12 @@ h1 ,h2, h3, p {
 .menu-button {
   display: flex;
   justify-content: center;
+  margin-bottom:  50px;
 }
 .menu-btn{
-  margin: 0px 8px 50px 0px;
+  margin-right: 8px;
 }
+
 .menu-btn:last-child{
   margin-right: 0px;
 }
@@ -253,7 +258,9 @@ h1 ,h2, h3, p {
  text-decoration: none;
  width: 145px;
 
- margin: 24px 93px 25px 0 ;
+ padding-top: 24px;
+ padding-bottom: 25px ;
+ margin-right: 93px;
 
 }
 
@@ -267,6 +274,8 @@ h1 ,h2, h3, p {
 }
 .list-nav{
   margin-right: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .list-nav:last-child {
   margin-right: 0px;
@@ -289,6 +298,7 @@ h1 ,h2, h3, p {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 0px;
 }
 .item{
  font-weight: 500;
@@ -311,16 +321,22 @@ h1 ,h2, h3, p {
  color: #FFFFFF;
  font-style: normal;
 
+ margin-top: 28px;
  margin-bottom: 12px;
 
 }
+.text-nav:first-child{
+  margin-bottom: 12px;
+}
+
 
 .search{
  font-size: 14px;
  line-height: 1.71;
  text-decoration: none;
  font-style: normal;
-  color: rgba(255, 255, 255, 0.6);
+ color: rgba(255, 255, 255, 0.6);
+
 }
 .footer-logo{
  font-family: 'Raleway';
@@ -332,14 +348,13 @@ h1 ,h2, h3, p {
  text-decoration: none;
   
 }
-a.footer-logo{
-  margin-bottom: 28px;
-}
+
 .address{
   width: 231px;
   height: 72px;
   margin: 0px;
   padding: 0px;
+  margin-top: 28px;
 }
 .section{
   padding-bottom: 94px;
