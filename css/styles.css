@@ -18,15 +18,14 @@ header {
  background:var(--header-background);
 border-bottom: 1px solid #ECECEC;
 height: 80px;
-padding-top: ;
-padding-bottom: ;
+
 }
   
 footer{
  background:var(--footer-background);
  text-decoration: none;
  font-style: normal;
- height: 251px;
+ 
  display: flexbox;
  padding-top: 60px;
  padding-bottom: 60px;
@@ -75,6 +74,7 @@ h1 ,h2, h3, p {
   .menu-list{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
     margin-right: auto;
     justify-content: end;
@@ -93,6 +93,8 @@ h1 ,h2, h3, p {
 .promo-title{
   background: #2F303A;
   height: 600px;
+}
+.section.promo-title{
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -183,14 +185,14 @@ h1 ,h2, h3, p {
  .name{
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.19;
   text-align: center;
 
   margin: 0 0 10px;
  }
  .text-box{
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.19;
   text-align: center;
   color: #757575;
 
@@ -274,8 +276,7 @@ h1 ,h2, h3, p {
 }
 .list-nav{
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+ 
 }
 .list-nav:last-child {
   margin-right: 0px;
